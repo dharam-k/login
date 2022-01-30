@@ -220,7 +220,7 @@ if($num>0){
                                                         }
                                                         if($kyc_status==0){
                                                             ?>
-                                                            <span class="badge badge-danger"><a href="#" class="text-white">Not Verified</a></span>
+                                                            <span class="badge badge-danger"><a href="kycpage.php" class="text-white">Not Verified</a></span>
                                                             <?php
                                                         }
 
