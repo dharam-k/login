@@ -220,7 +220,7 @@ if($num>0){
                                                         }
                                                         if($kyc_status==0){
                                                             ?>
-                                                            <span class="badge badge-danger"><a href="kycpage.php" class="text-white">Not Verified</a></span>
+                                                            <span class="badge badge-danger">Not Verified</span>
                                                             <?php
                                                         }
 
@@ -318,23 +318,40 @@ if($num>0){
                             </div>
 
                             <div class="col-12 col-md-3 mb-3">
-                                <div class="card mb-3">
-                                    <div class="card-body">
-                                        <div class="px-xl-3">
-                                            <button class="btn btn-block btn-secondary">
-                                                <i class="fa fa-sign-out"></i>
-                                                <span><a href="logout.php">Logout</a></span>
-                                            </button>
+                                
+                                <?php if($kyc_status==0){
+                                    ?>
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6 class="card-title font-weight-bold">KYC Your Account </h6>
+                                            <p class="card-text">You have to verified your account to certified user.</p>
+                                            <a href="#" class="btn btn-info">Complete eKYC Now</a>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="card">
-                                    <div class="card-body">
-                                        <h6 class="card-title font-weight-bold">Support</h6>
-                                        <p class="card-text">Get fast, free help from our friendly assistants.</p>
-                                        <button type="button" class="btn btn-primary">Contact Us</button>
+                                    <?php
+                                }else{
+                                    ?>      
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <h6 class="card-title font-weight-bold">KYC Detail </h6>
+                                            <div class="mx-auto" style="width: 140px;">
+                                                <div class="d-flex justify-content-center align-items-center rounded"
+                                                    style="height: 140px; background-color: rgb(233, 236, 239);">
+                                                    <span
+                                                        style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                                                </div>
+                                            </div>
+                                            <br>
+                                            <p class="card-text"><label>Adhaar Number :</label></p>
+                                            <p class="card-text"><label>Full Name :</label></p>
+                                            <p class="card-text"><label>Date of Birth :</label></p>
+                                            <p class="card-text"><label>Address :</label></p>
+                                        </div>
                                     </div>
-                                </div>
+                                    <?php
+                                }
+                                ?>
+                                 
                             </div>
                         </div>
 
