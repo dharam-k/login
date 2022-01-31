@@ -1,0 +1,30 @@
+
+#profileDisplay {
+	display: block;
+	height: 120px;
+    width: 80%;
+	margin: 0px auto;
+	border-radius: 50%;
+}
+.img-placeholder {
+    /* margin-top: 40px; */
+	width: 80%;
+	color: white;
+	height: 120px;
+	background: black;
+	opacity: .7;
+	border-radius: 50%;
+	z-index: 2;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	display: none;
+}
+.img-placeholder h6 {
+	margin-top: 40%;
+	color: white;
+}
+.img-div:hover .img-placeholder {
+	display: block;
+	cursor: pointer;
+}

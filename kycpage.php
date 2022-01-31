@@ -10,19 +10,6 @@ if(!isset($_SESSION['id'])){
 $name=$_SESSION['name'];
 $id=$_SESSION['id'];
 
-$sql="select * from tyfyt_user where id='".$id."'";
-
-$result=mysqli_query($conn, $sql);
-$num=mysqli_num_rows($result);
-if($num>0){
-    if($row = mysqli_fetch_array($result)){
-        $name=$row['name'];
-        $email=$row['email'];
-        $kyc_status=$row['kyc_status'];
-        $user_name=$row['user_name'];
-        $join_date=$row['join_date'];  
-    }
-}
 
 
 ?>

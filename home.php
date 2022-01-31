@@ -49,6 +49,8 @@ if($num>0){
     <link href="assets/css/icons.css" rel="stylesheet">
     <link href="assets/css/menu.css" rel="stylesheet" type="text/css">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/custom.css">
+
 </head>
 
 <body class="sticky-header" style="background-color: #f3f4f5;">
@@ -69,7 +71,7 @@ if($num>0){
                 </div>
 
                 <!--toggle button start-->
-                
+
                 <!--toggle button end-->
 
                 <!--mega menu start-->
@@ -86,7 +88,7 @@ if($num>0){
                             </ul>
                         </li>
                         <!-- Classic list -->
-                       
+
                     </ul>
                 </div>
                 <!--mega menu end-->
@@ -95,65 +97,67 @@ if($num>0){
                     <!--right notification start-->
                     <div class="right-notification">
                         <ul class="notification-menu">
-                            <!-- <li>
-                                    <a href="javascript:;" class="notification" data-toggle="dropdown">
-                                        <i class="mdi mdi-bell-outline"></i>
-                                        <span class="badge badge-success">4</span>
-                                    </a>
-                                    <ul class="dropdown-menu mailbox dropdown-menu-right">
-                                        <li>
-                                          <div class="drop-title">Notifications</div>
-                                        </li>
-                                        <li class="notification-scroll">
-                                            <div class="message-center">
-                                                <a href="#">
-                                                    <div class="user-img"> 
-                                                        <i class="ti ti-star"></i>
-                                                    </div>
-                                                    <div class="mail-contnet">
-                                                        <h6>Jane A. Seward</h6>
-                                                        <span class="mail-desc">Iwon meddle and...</span>
-                                                    </div>
-                                                </a>                                              
-                                            </div>
-                                        </li>
-                                        <li> 
-                                            <a class="text-center bg-light" href="javascript:void(0);"> 
-                                                <strong>See all notifications</strong> 
+                            <li>
+                                <a href="javascript:;" class="notification" data-toggle="dropdown">
+                                    <i class="mdi mdi-bell-outline"></i>
+                                    <span class="badge badge-success">4</span>
+                                </a>
+                                <ul class="dropdown-menu mailbox dropdown-menu-right">
+                                    <li>
+                                        <div class="drop-title">Notifications</div>
+                                    </li>
+                                    <li class="notification-scroll">
+                                        <div class="message-center">
+                                            <a href="#">
+                                                <div class="user-img">
+                                                    <i class="ti ti-star"></i>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h6>Jane A. Seward</h6>
+                                                    <span class="mail-desc">Iwon meddle and...</span>
+                                                </div>
                                             </a>
-                                        </li>
-                                    </ul>
-                                </li> -->
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="text-center bg-light" href="javascript:void(0);">
+                                            <strong>See all notifications</strong>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
 
-                            <!--  <li>
-                                    <a href="javascript:;" class="notification" data-toggle="dropdown">
-                                        <i class="mdi mdi-email-outline"></i>
-                                        <span class="badge badge-danger">9</span>
-                                    </a>
-                                    <ul class="dropdown-menu mailbox dropdown-menu-right">
-                                        <li>
-                                            <div class="drop-title">New Messages 5</div>
-                                        </li>
-                                        <li class="notification-scroll">
-                                            <div class="message-center">
-                                                <a href="#">
-                                                    <div class="user-img">
-                                                         <img src="assets/images/users/avatar-2.jpg" alt="user" class="rounded-circle"> 
-                                                         <span class="profile-status online pull-right"></span>
-                                                    </div>
-                                                    <div class="mail-contnet">
-                                                        <h6>Cassie T. Bishop</h6>
-                                                        <span class="mail-desc">Just see the my admin!</span>
-                                                        <span class="time">9:30 AM</span> 
-                                                    </div>
-                                                </a>
-                                            </div>
-                                        </li>
-                                        <li> 
-                                            <a class="text-center bg-light" href="javascript:void(0);"> <strong>See all notifications</strong> </a>
-                                        </li>
-                                    </ul>
-                                </li> -->
+                            <li>
+                                <a href="javascript:;" class="notification" data-toggle="dropdown">
+                                    <i class="mdi mdi-email-outline"></i>
+                                    <span class="badge badge-danger">9</span>
+                                </a>
+                                <ul class="dropdown-menu mailbox dropdown-menu-right">
+                                    <li>
+                                        <div class="drop-title">New Messages 5</div>
+                                    </li>
+                                    <li class="notification-scroll">
+                                        <div class="message-center">
+                                            <a href="#">
+                                                <div class="user-img">
+                                                    <img src="assets/images/users/avatar-2.jpg" alt="user"
+                                                        class="rounded-circle">
+                                                    <span class="profile-status online pull-right"></span>
+                                                </div>
+                                                <div class="mail-contnet">
+                                                    <h6>Cassie T. Bishop</h6>
+                                                    <span class="mail-desc">Just see the my admin!</span>
+                                                    <span class="time">9:30 AM</span>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <a class="text-center bg-light" href="javascript:void(0);"> <strong>See all
+                                                notifications</strong> </a>
+                                    </li>
+                                </ul>
+                            </li>
 
                             <li>
                                 <a href="javascript:;" data-toggle="dropdown">
@@ -191,41 +195,53 @@ if($num>0){
                                             <div class="row">
                                                 <div class="col-12 col-sm-auto mb-3">
                                                     <div class="mx-auto" style="width: 140px;">
-                                                        <div class="d-flex justify-content-center align-items-center rounded"
-                                                            style="height: 140px; background-color: rgb(233, 236, 239);">
-                                                            <span
-                                                                style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
+                                                        <div class="d-flex justify-content-center align-items-center rounded">
+                                                            <div class="form-div">
+                                                            <form action="hello.php" method="post" enctype="multipart/form-data">
+                                                                <div class="form-group text-center" style="position: relative;">
+                                                                    <span class="img-div">
+                                                                        <div class="text-center img-placeholder" onClick="triggerClick()">
+                                                                            <h6>Update Image</h6>
+                                                                        </div>
+                                                                        <img src="images/img1.png" onClick="triggerClick()" id="profileDisplay">
+                                                                    </span>
+                                                                    <input type="file" name="profileImage" onChange="displayImage(this)" id="profileImage" class="form-control" style="display: none;">
+                                                                </div>
+                                                            </form>
+                                                            </div>
                                                         </div>
                                                     </div>
                                                 </div>
                                                 <div
                                                     class="col d-flex flex-column flex-sm-row justify-content-between mb-3">
                                                     <div class="text-center text-sm-left mb-2 mb-sm-0">
-                                                        <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap"><?php echo strtoupper($name);?></h4>
-                                                        
+                                                        <h4 class="pt-sm-2 pb-1 mb-0 text-nowrap">
+                                                            <?php echo strtoupper($name);?></h4>
+
                                                         <div class="text-muted"><small>Last seen 2 hours ago</small>
                                                         </div>
                                                         <div class="mt-2">
                                                             <button class="btn btn-primary" type="button">
-                                                                <i class="fa fa-fw fa-camera"></i>
-                                                                <span>Change Photo</span>
+                                                                <span>Upload Pic</span>
                                                             </button>
                                                         </div>
                                                     </div>
+                                                  
                                                     <div class="text-center text-sm-right">
                                                         <?php if($kyc_status==1){
                                                             ?>
-                                                            <span class="badge badge-primary">Verified</span>
-                                                            <?php
+                                                        <span class="badge badge-primary">Verified</span>
+                                                        <?php
                                                         }
                                                         if($kyc_status==0){
                                                             ?>
-                                                            <span class="badge badge-danger">Not Verified</span>
-                                                            <?php
+                                                        <span class="badge badge-danger">Not Verified</span>
+                                                        <?php
                                                         }
 
                                                         ?>
-                                                        <div class="text-muted"><small>Joined <?php echo $join_date; ?></small></div>
+                                                        <div class="text-muted"><small>Joined
+                                                                <?php echo $join_date; ?></small></div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -261,11 +277,11 @@ if($num>0){
                                                                         <div class="form-group">
                                                                             <label>Email</label>
                                                                             <input class="form-control" type="text"
-                                                                            value="<?php echo $email; ?>">
+                                                                                value="<?php echo $email; ?>">
                                                                         </div>
                                                                     </div>
                                                                 </div>
-                                                              
+
                                                             </div>
                                                         </div>
                                                         <div class="row">
@@ -300,7 +316,7 @@ if($num>0){
                                                                     </div>
                                                                 </div>
                                                             </div>
-                                                            
+
                                                         </div>
                                                         <div class="row">
                                                             <div class="col d-flex justify-content-end">
@@ -318,40 +334,40 @@ if($num>0){
                             </div>
 
                             <div class="col-12 col-md-3 mb-3">
-                                
+
                                 <?php if($kyc_status==0){
                                     ?>
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h6 class="card-title font-weight-bold">KYC Your Account </h6>
-                                            <p class="card-text">You have to verified your account to certified user.</p>
-                                            <a href="#" class="btn btn-info">Complete eKYC Now</a>
-                                        </div>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="card-title font-weight-bold">KYC Your Account </h6>
+                                        <p class="card-text">You have to verified your account to certified user.</p>
+                                        <a href="#" class="btn btn-info">Complete eKYC Now</a>
                                     </div>
-                                    <?php
+                                </div>
+                                <?php
                                 }else{
-                                    ?>      
-                                    <div class="card">
-                                        <div class="card-body">
-                                            <h6 class="card-title font-weight-bold">KYC Detail </h6>
-                                            <div class="mx-auto" style="width: 140px;">
-                                                <div class="d-flex justify-content-center align-items-center rounded"
-                                                    style="height: 140px; background-color: rgb(233, 236, 239);">
-                                                    <span
-                                                        style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
-                                                </div>
+                                    ?>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <h6 class="card-title font-weight-bold">KYC Detail </h6>
+                                        <div class="mx-auto" style="width: 140px;">
+                                            <div class="d-flex justify-content-center align-items-center rounded"
+                                                style="height: 140px; background-color: rgb(233, 236, 239);">
+                                                <span
+                                                    style="color: rgb(166, 168, 170); font: bold 8pt Arial;">140x140</span>
                                             </div>
-                                            <br>
-                                            <p class="card-text"><label>Adhaar Number :</label></p>
-                                            <p class="card-text"><label>Full Name :</label></p>
-                                            <p class="card-text"><label>Date of Birth :</label></p>
-                                            <p class="card-text"><label>Address :</label></p>
                                         </div>
+                                        <br>
+                                        <p class="card-text"><label>Adhaar Number :</label></p>
+                                        <p class="card-text"><label>Full Name :</label></p>
+                                        <p class="card-text"><label>Date of Birth :</label></p>
+                                        <p class="card-text"><label>Address :</label></p>
                                     </div>
-                                    <?php
+                                </div>
+                                <?php
                                 }
                                 ?>
-                                 
+
                             </div>
                         </div>
 
@@ -379,6 +395,26 @@ if($num>0){
 
     <!--app js-->
     <script src="assets/js/jquery.app.js"></script>
+    <script src="css/custom.css"></script>
+
+    <!-- image upload js -->
+    <script>
+    function triggerClick(e) {
+        document.querySelector('#profileImage').click();
+    }
+
+    function displayImage(e) {
+        if (e.files[0]) {
+            var reader = new FileReader();
+            reader.onload = function(e) {
+                document.querySelector('#profileDisplay').setAttribute('src', e.target.result);
+            }
+            reader.readAsDataURL(e.files[0]);
+        } else {
+            alert("Please upload image");
+        }
+    }
+    </script>
 </body>
 
 </html>
